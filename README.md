@@ -63,7 +63,7 @@ export JIRA_PROJECT_KEY="DEVOPSTASKS"
 export GITLAB_WEBHOOK_SECRET="your-gitlab-secret"
 
 # Start the application
-python gitlab_jira_webhook_bot.py
+python app.py
 ```
 The bot will be running on `http://0.0.0.0:8080`.
 
